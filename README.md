@@ -6,7 +6,5 @@ Javascript Text Generator
 
 ## Usage examples
 
-```
-node index.js find pron.poss-male # find male possessive pronouns
-node index.js find timenoun.plural-dayofweek # get plural time nouns for weekdays
-```
+- find male possessive pronouns: `node index.js find pron.poss-male`
+- get plural time nouns for weekdays: `node index.js find timenoun.plural-dayofweek`
