@@ -1,20 +1,22 @@
 {
   "name": "tanner",
   "version": "0.1.0",
-  "description": "Text Generator",
+  "description": "Javascript Text Generator",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "author": "Felix Fischer <kontakt@felixfischer.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/felixfischer/tanner.git"
+  },
+  "bugs": {
+    "mail": "kontakt@felixfischer.com",
+    "url": "https://github.com/felixfischer/tanner/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "0.5.x",
     "commander": "2.x",
-    "console.table": "^0.2.0",
-    "easy-table": "0.3.x",
-    "findit": "^2.0.0",
-    "lodash": "2.x",
-    "nconf": "0.6.x"
+    "console.table": "0.2.x",
+    "lodash": "2.x"
   }
 }
