@@ -1,0 +1,3 @@
+[submodule "vocabulary/RantVocab"]
+	path = vocabulary/RantVocab
+	url = git@github.com:TheBerkin/RantVocab.git

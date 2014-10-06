@@ -1,0 +1,12 @@
+{
+  "vocab": {
+    "path": "./vocabulary/RantVocab",
+    "ext": ".dic"
+  },
+  "util": {
+    "inspect": {
+      "colors": true,
+      "depth": 1000
+    }
+  }
+}
