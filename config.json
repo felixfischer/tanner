@@ -1,6 +1,6 @@
 {
   "vocab": {
-    "path": "./vocabulary/RantVocab",
+    "path": "./vocabulary",
     "ext": ".dic"
   },
   "util": {
