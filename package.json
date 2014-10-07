@@ -22,8 +22,14 @@
   "jshintConfig": {
     "node": true,
     "asi": true,
+    "maxlen": 80,
+    "indent": 2,
     "undef": true,
     "unused": true,
-    "laxcomma": true
+    "laxcomma": true,
+    "maxcomplexity": 4,
+    "newcap": true,
+    "forin": true,
+    "eqeqeq": true
   }
 }
