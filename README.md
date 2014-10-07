@@ -2,12 +2,29 @@
 
 Javascript Text Generator
 
-*work in progress*
+## Installation
 
-## Usage examples
+No installation for now, just clone the repository.
 
-- find male possessive pronouns: `node index.js find pron.poss-male`
-- get plural time nouns for weekdays: `node index.js find timenoun.plural-dayofweek`
+## Usage
+
+### Command Line Usage
+
+#### Examples
+
+- `node index.js **index**` to show vocabulary index
+- `node index.js **list**` to show full vocabulary list
+- `node index.js **classes**` to list available vocaulary classes
+- `node index.js **find pron.poss-male**` to find male possessive pronouns
+- `node index.js **find timenoun.plural-dayofweek**` to get plural time nouns
+  for weekdays
+
+Get a list of all available commands with `node index.js **--help**`.
+
+### Node.js module
+
+Tanner can be `require`d and used as a Node.js module. Read the code to see how
+you can work with it.
 
 ## License
 
