@@ -18,5 +18,12 @@
     "commander": "2.x",
     "console.table": "0.2.x",
     "lodash": "2.x"
+  },
+  "jshintConfig": {
+    "node": true,
+    "asi": true,
+    "undef": true,
+    "unused": true,
+    "laxcomma": true
   }
 }

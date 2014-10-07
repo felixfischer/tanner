@@ -4,7 +4,8 @@
  * MIT Licensed
  */
 
-"use strict"
+"use strict";
+
 
 // provide a CLI when the script is called directly...
 if (require.main === module) require('./lib/CLI')
