@@ -1,29 +1,29 @@
 # Tanner
 
-Javascript Text Generator
-
-## Installation
-
-No installation for now, just clone the repository.
+Experimental Javascript Text Generator for Node.js.
+Heavily inspired by [Rant](https://github.com/TheBerkin/Rant).
 
 ## Usage
 
-### Command Line Usage
+On the command line, use the `node index.js generate` command, followed by
+your query expression, to generate corresponding results. Example:
 
-#### Examples
+```
+node index.js generate "<name> <verb.s-transitive> <adj.normal> <noun.plural>."
+```
 
-- `node index.js **index**` to show vocabulary index
-- `node index.js **list**` to show full vocabulary list
-- `node index.js **classes**` to list available vocaulary classes
-- `node index.js **find pron.poss-male**` to find male possessive pronouns
-- `node index.js **find timenoun.plural-dayofweek**` to get plural time nouns
-  for weekdays
+Possible result: *Kimberly oils chrome-plated tabletops.*
 
-Get a list of all available commands with `node index.js **--help**`.
+You can type `node index.js` to get a list of all available commands. Utility
+functions include:
 
-### Node.js module
+- `index`: show dictionary list
+- `overview`: show vocabulary types, subtypes and classes
+- `list` show full vocabulary list (long)
+- `find timenoun.plural-dayofweek` to find plural weekdays
 
-Tanner can be `require`d and used as a Node.js module. Read the code to see how
+Tanner can also be `require`d and used as a Node.js module, but this is mainly
+untested and undocumented as of now. You could read the source code to see how
 you can work with it.
 
 ## License
